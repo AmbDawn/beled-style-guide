@@ -1,0 +1,93 @@
+/* spec sheet link https://content.codecademy.com/courses/freelance-1/unit-2/dasmotos-arts_redline.jpg?_gl=1*1ty9a2v*_gcl_au*MTQ5NzQ5OTcxMS4xNzQyNjkyNTA3*_ga*MTI4MjI2NDQwNC4xNzQyMzkzMzU0*_ga_3LRZM6TM9L*MTc0Mjg0MDcwOS4zNS4xLjE3NDI4NDIyNDQuNTguMC4w */
+h1, h2, h3, p {
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+nav {
+ /*   position: fixed;
+    top: 0; */
+    position: absolute;
+    top: 0px;
+    background-color: darkslategrey;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-banner h1 {
+    background-image: url("../images/pattern.jpeg");
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 100px;
+    width: 100%;
+}
+/*
+.top-banner {
+    background-image: url("../images/pattern.jpeg");
+    display: block;
+    height: 125px;
+    width: 100%;
+    margin-top: 100px;
+}
+*/
+.product h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+/*    height: fit-content;
+    width: 100%;
+    */
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+
+.blue {
+    font-weight: bold;
+    color: blue;
+}
+
+/* text styles: 
+
+font-family: 'font name', serif;;
+font-size: Xpx;
+font-weight: 400, bold;
+text-transform: uppercase;
+font-style: italic;
+font-variant: small-caps;
+text-decoration: underline;
+letter-spacing: 1px, .1em;
+word-spacing:: 2px, .2em;
+line-height: 1.2, 12px, 5%, 2em;
+text-align: left, right, center, justify; (to parent element)
+vertical-align: baseline, top, middle, bottom; (to parent element)
+
+
+*/

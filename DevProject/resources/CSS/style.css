@@ -1,0 +1,66 @@
+.banner {
+    background-color: darkorange;
+    color: blue;
+    margin-top: 75px;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+#BeLED_logo {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+#BLnetwork {
+    color: blue;
+    font-size: 75px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-top: 20px;
+    background-color: black;
+    color: darkorange;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: darkorange;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+#sparks ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.BeLED-section {
+    padding: 50px 50px;
+}
+
+.avatar {
+   background-image: url(../images/Icon_over_Blue.png);
+   background-size: cover;
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 15px;
+   margin-bottom: 15px;
+}
