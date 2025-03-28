@@ -158,7 +158,7 @@ th {
     text-transform: uppercase;
  }
 
-.size {
+.large-size {
     font-size: 40px;
  } 
 
@@ -170,11 +170,11 @@ th {
     background-color: cyan;
 }
 
-.middle {
+.top {
     vertical-align: top;
 }
 
-.right {
+.center {
     text-align: center;
 }
 
